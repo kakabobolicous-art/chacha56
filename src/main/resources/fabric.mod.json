@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "zavi_pvp_help",
+  "version": "1.0.0",
+  "name": "Zavi PvP Help",
+  "description": "Crosshair turns green when you can hit an enemy in range. If the player or entity is in your hitbox and you can hit them, the crosshair turns green. If not, it stays normal.",
+  "authors": ["zavi pepe"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.zavi.pvphelp.ZaviPvPHelp"]
+  },
+  "mixins": ["zavi_pvp_help.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": ">=0.100.0",
+    "minecraft": "1.21.5"
+  }
+}

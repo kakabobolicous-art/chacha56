@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.zavi.pvphelp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": ["GameRendererMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
